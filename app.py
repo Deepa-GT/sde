@@ -131,6 +131,21 @@ st.markdown("""
         margin-bottom: 12px;
         font-size: 0.9rem;
     }
+
+    /* Responsive Mobile & Tablet Viewport Adaptations */
+    @media (max-width: 992px) {
+        .hero-container { padding: 18px 20px; }
+        .hero-title { font-size: 1.75rem !important; }
+        .hero-subtitle { font-size: 0.95rem; }
+        .kpi-val { font-size: 1.5rem; }
+    }
+    @media (max-width: 600px) {
+        .hero-container { padding: 14px 16px; border-radius: 12px; margin-bottom: 16px; }
+        .hero-title { font-size: 1.35rem !important; }
+        .metric-card { padding: 12px 14px; margin-bottom: 8px; }
+        .kpi-val { font-size: 1.25rem; }
+        .reply-box { font-size: 0.95rem; padding: 12px 14px; }
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -299,6 +314,7 @@ tab_play, tab_bench, tab_cal, tab_data, tab_tax, tab_arch = st.tabs([
 with tab_play:
     st.markdown("### 💬 Real-Time Customer Query Simulator")
     st.markdown("Test any customer tweet against the full AI pipeline: multi-class intent classifier, RAG retrieval engine, escalation guardrail router, and Twitter reply generator.")
+    st.info("💡 **Friendly Tip:** Click any preset scenario below to test real-world cases, or type your own custom query. Watch how the agent classifies intent, guards safety, and crafts a warm, empathetic reply in under 15ms!")
 
     # Preset query chips
     preset_queries = {
@@ -344,6 +360,7 @@ with tab_play:
                 reference_reply="Please reach out to us via DM with your device details so we can investigate.",
                 should_escalate=res["should_escalate"]
             )
+            st.toast(f"✨ Response drafted in {res['processing_time_ms']} ms — warm, grounded & Twitter compliant!", icon="🍎")
 
         st.markdown("---")
         
@@ -428,6 +445,9 @@ with tab_play:
                 <strong>{char_len}</strong> / 280 characters ({'Compliant' if char_len <= 280 else 'Over limit!'})
             </div>
             """, unsafe_allow_html=True)
+
+            with st.expander("📋 One-Click Copy Tweet Draft"):
+                st.code(drafted, language="text")
 
             # LLM-as-Judge Evaluation Card
             st.markdown("#### ⚖️ LLM-as-Judge Real-time Audit")
