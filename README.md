@@ -6,12 +6,12 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=flat-square)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 [![Unit Tests](https://img.shields.io/badge/unit%20tests-12%2F12%20passed-success.svg?style=flat-square)](#)
-[![Streamlit Cloud](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B.svg?style=flat-square&logo=streamlit)](https://share.streamlit.io/deploy?repository=Deepa-GT/sde&branch=main&mainModule=app.py)
+[![Streamlit Cloud](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B.svg?style=flat-square&logo=streamlit)](https://deepa-gt-sde-app-ombp5c.streamlit.app/)
 
 **Hiver SDE Intern Take-Home Assignment Submission**  
 *An end-to-end, production-ready AI Support Agent for `@AppleSupport` on Twitter featuring Multi-Class Intent Classification, RAG-grounded Response Generation, Policy-Gated Escalation Routing, 2 Baselines, a 200-sample Golden Evaluation Set, an LLM-as-Judge Evaluator, and Human Calibration.*
 
-[**Read Technical Report (REPORT.md)**](REPORT.md) • [**Architecture Decision Log (DECISION_LOG.md)**](DECISION_LOG.md) • [**Dataset Methodology Note**](data/SAMPLING_AND_LABELLING_NOTE.md) • [**Live Web App**](https://upset-onions-report.loca.lt)
+[**Read Technical Report (REPORT.md)**](REPORT.md) • [**Architecture Decision Log (DECISION_LOG.md)**](DECISION_LOG.md) • [**Dataset Methodology Note**](data/SAMPLING_AND_LABELLING_NOTE.md) • [**Live Streamlit App**](https://deepa-gt-sde-app-ombp5c.streamlit.app/)
 
 </div>
 
@@ -55,9 +55,8 @@ Launches the full interactive playground, benchmark arena, calibration scatter p
 ```bash
 streamlit run app.py
 ```
-*Or visit the live deployment:*
-- **Live Public URL**: [https://upset-onions-report.loca.lt](https://upset-onions-report.loca.lt) *(Password/IP if prompted: `152.57.101.247`)*
-- **1-Click Streamlit Cloud**: [Deploy with 1 Click](https://share.streamlit.io/deploy?repository=Deepa-GT/sde&branch=main&mainModule=app.py)
+*Visit the live cloud deployment:*
+- **Live Streamlit App**: [Apple Support AI Agent & Evaluation Suite · Streamlit](https://deepa-gt-sde-app-ombp5c.streamlit.app/)
 
 ### 6. Run Interactive Pipeline CLI Demo
 ```bash
@@ -192,5 +191,5 @@ The agent exclusively links to authenticated Apple domains:
 
 - **Submission Form**: [Hiver Take-Home Submission](https://intelligent-bar-256.notion.site/39492cbf0da2800682cfc78a600a745f)
 - **GitHub Repository**: [https://github.com/Deepa-GT/sde](https://github.com/Deepa-GT/sde)
-- **Live Deployed App**: [https://upset-onions-report.loca.lt](https://upset-onions-report.loca.lt)
+- **Live Deployed App**: [Apple Support AI Agent & Evaluation Suite · Streamlit](https://deepa-gt-sde-app-ombp5c.streamlit.app/)
 - **License**: MIT License
