@@ -11,7 +11,7 @@
 **Hiver SDE Intern Take-Home Assignment Submission**  
 *An end-to-end, production-ready AI Support Agent for `@AppleSupport` on Twitter featuring Multi-Class Intent Classification, RAG-grounded Response Generation, Policy-Gated Escalation Routing, 2 Baselines, a 200-sample Golden Evaluation Set, an LLM-as-Judge Evaluator, and Human Calibration.*
 
-[**Read Technical Report (REPORT.md)**](REPORT.md) • [**Architecture Decision Log (DECISION_LOG.md)**](DECISION_LOG.md) • [**Dataset Methodology Note**](data/SAMPLING_AND_LABELLING_NOTE.md) • [**Live Web App**](https://plenty-bikes-carry.loca.lt)
+[**Read Technical Report (REPORT.md)**](REPORT.md) • [**Architecture Decision Log (DECISION_LOG.md)**](DECISION_LOG.md) • [**Dataset Methodology Note**](data/SAMPLING_AND_LABELLING_NOTE.md) • [**Live Web App**](https://upset-onions-report.loca.lt)
 
 </div>
 
@@ -56,7 +56,7 @@ Launches the full interactive playground, benchmark arena, calibration scatter p
 streamlit run app.py
 ```
 *Or visit the live deployment:*
-- **Live Public URL**: [https://plenty-bikes-carry.loca.lt](https://plenty-bikes-carry.loca.lt) *(Password/IP if prompted: `152.57.101.247`)*
+- **Live Public URL**: [https://upset-onions-report.loca.lt](https://upset-onions-report.loca.lt) *(Password/IP if prompted: `152.57.101.247`)*
 - **1-Click Streamlit Cloud**: [Deploy with 1 Click](https://share.streamlit.io/deploy?repository=Deepa-GT/sde&branch=main&mainModule=app.py)
 
 ### 6. Run Interactive Pipeline CLI Demo
@@ -192,5 +192,5 @@ The agent exclusively links to authenticated Apple domains:
 
 - **Submission Form**: [Hiver Take-Home Submission](https://intelligent-bar-256.notion.site/39492cbf0da2800682cfc78a600a745f)
 - **GitHub Repository**: [https://github.com/Deepa-GT/sde](https://github.com/Deepa-GT/sde)
-- **Live Deployed App**: [https://plenty-bikes-carry.loca.lt](https://plenty-bikes-carry.loca.lt)
+- **Live Deployed App**: [https://upset-onions-report.loca.lt](https://upset-onions-report.loca.lt)
 - **License**: MIT License

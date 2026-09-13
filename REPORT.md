@@ -6,7 +6,7 @@
 **Target Enterprise**: `@AppleSupport` (Customer Support on Twitter)  
 **Evaluation Set**: 200 Hand-Labelled Stratified Test Cases (`data/golden_eval_set.json`)  
 **Repository**: [https://github.com/Deepa-GT/sde](https://github.com/Deepa-GT/sde)  
-**Live Web Application**: [https://plenty-bikes-carry.loca.lt](https://plenty-bikes-carry.loca.lt) | [Deploy to Streamlit Cloud](https://share.streamlit.io/deploy?repository=Deepa-GT/sde&branch=main&mainModule=app.py)
+**Live Web Application**: [https://upset-onions-report.loca.lt](https://upset-onions-report.loca.lt) | [Deploy to Streamlit Cloud](https://share.streamlit.io/deploy?repository=Deepa-GT/sde&branch=main&mainModule=app.py)
 
 ```
 ========================================================================================================
