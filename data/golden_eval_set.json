@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "GOLD_001",
+    "customer_text": "@AppleSupport my #iphone5s repair cost me $200+ ask for upgrade 2#iphone6 2 #UTC #SanDiego dey refuse 2take d phone says cant recycle has small display issue message clear once #iphone dies apple wont care #2enduser ?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Hello! We’d like to understand more about this situation. Please DM us some details and we’ll take it from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_002",
+    "customer_text": "@AppleSupport It would be great if I could download the app. Bloody iTunes store will not download any apps. I can find no useful information about this problem except that a lot of users are having similar issues with icloud/app store/itunes store. Can you offer anything useful?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're happy to help. Does it happen with one network in particular or with multiple networks? Which iOS version are you running? Let us know in DM.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_003",
+    "customer_text": "@AppleSupport @AppleSupport I was thinking about the same thing, IPhone 6a and iOS 11.0.3.. battery &amp; heating is the issue",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd like to help. DM us and we can take a closer look at your issues.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_004",
+    "customer_text": "@AppleSupport after new update 11.1 on my Iphone 6s, touchscreen is responding accurately. i dont know what goes wrong with that. after evry new update of 11 there still remain sme issue. plz fix it",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Thanks for reaching out. DM the issue you are seeing with your iPhone currently to get started.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_005",
+    "customer_text": "@AppleSupport recently upgraded ‘my media manager’ app by Mo Wellin &amp; can no longer access with password as app has completely changed. There are many important photos that I’m hoping are not lost. Have emailed the app maker. #helpplease",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Which device is this app for? Were these photos taken from your device? If so, have you checked from a computer, to see if they are there?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_006",
+    "customer_text": "@AppleSupport cant access my apple account. Is there a known issue causing this? My X just completely died too",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're always here to help. Could you let us know what exactly is happening when you say you can't access your Apple account? For example, are you getting an error message?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_007",
+    "customer_text": "@AppleSupport overnight my Apple ID was hacked, my phone, watch, laptop are in lost mode, I can use my phone but not my laptop - pls help!",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Security or fraud concern requires human investigation.",
+    "reference_reply": "@AppleSupport We can certainly help look into this. Go ahead and reach out to us in DM &amp; we'll be glad to look into this with you.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_008",
+    "customer_text": "@AppleSupport my apple account has been hacked help please",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Security or fraud concern requires human investigation.",
+    "reference_reply": "@AppleSupport We know how important getting that resolved is. We have recieved your DM and will continue there shortly.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_009",
+    "customer_text": "@AppleSupport I’ve owned everything you guys ever made but iPhone 7 glass just cracked like a cracker ! 4/5/6/6s never like this",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport We can definitely discuss what options are available for your iPhone 7. Please meet us in DM with your country and we'll take it from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_010",
+    "customer_text": "@AppleSupport bottom left corner, my screen is discolored on my 8 plus, never dropped or banged it",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport Let's work together on this. Is this behavior occurring within apps like Safari or only appearing on your home screen?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_011",
+    "customer_text": "@AppleSupport Hopefully bcz yesterday i reached bt service centre downgrade software that it not hearing me 2times i called them said abt hardware issue",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'll do all we can to help you out. Please send us a DM to get started.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_012",
+    "customer_text": "@AppleSupport My iPad Pro 10.5 inch battery dies so fast on iOS 11...after 4 hours it’s dropped 75% already...I haven’t even had this iPad for more than 2 weeks.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport That's not the experience we want for you. Send us a DM letting us know which country you are located in.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_013",
+    "customer_text": "@AppleSupport if I bought a belkin invisiglass screen protector with my iPhone X just about a week ago, and it’s already cracked without having dropped it, while the Apple store replace it for me for free?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport To clarify, are you stating that your iPhone X screen is broken or that the screen protector is broke? Please let us know in DM.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_014",
+    "customer_text": "@AppleSupport How much would it cost to fix a cracked IPhone 6s screen?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport DM us with the country you're located in so that we can get you the information for your area. Use the link below.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_015",
+    "customer_text": "@AppleSupport @AppleSupport I had the phone since April. No one there can tell me why the phone is not covered by warranty and why Apple won't replace it. They say could be water damage or broken screen, but I haven't had the phone in water nor screen was not damaged when sent.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport We're more than happy to look into the notes for your iPhone and figure out what's going on. DM us your country to get started.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_016",
+    "customer_text": "@AppleSupport My phone dropped from 50% to 12% in the matter of like a half hour. Could there be something wrong with it?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport Let's look into this battery issue for you. Send us a DM with your current iOS version to get started.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_017",
+    "customer_text": "@AppleSupport my headphones are crackling. Can I get them replaced?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport We're here to help. Are these the EarPods that came with your device?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_018",
+    "customer_text": "@AppleSupport @AppleSupport no cap I’m tired of y’all shit. I been team iPhone since the 4 dropped , why tf do i see a box with a damn question Mark",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport We've released a software update to resolve that issue. If you haven't already done so, back up your data and update to iOS 11.1.1. DM us if you still have the issue and we'll gladly help out.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_019",
+    "customer_text": "@AppleSupport apps are not responding my reminder app is not working. I have updated but the issue exists. Pls help.",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd like to see how we can help. With the apps that aren't responding, are they closing when you try to open them? Which apps are affected? What happens when you try to set a reminder? Let us know in DM to continue:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_020",
+    "customer_text": "@AppleSupport the issue is that the songs of these albums are not in the correct order and it happens completely random",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Got it. Is this still happening after a restart? Which iOS version are you running? Send us DM with the answers to help us figure this one out for you.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_021",
+    "customer_text": "MacBook trackpad is acting up again - sending in for a fix. Can't believe how naked &amp; useless I feel without a computer! 😩 Also, any quick fixes/troubleshooting for trackpad issues in the future? @AppleSupport",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Sure thing. If that happens again, do an SMC and NVRAM reset on your Mac and reach out to us. We'll be happy to help. We've included the links to those resets. SMC Reset: NVRAM Reset:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_022",
+    "customer_text": "So how come UPS told me my phone X might be stolen or missing and no one is doing anything about it?? I call one company and keep getting directed to the another @AppleSupport @AppleSupport @AppleSupport",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Security or fraud concern requires human investigation.",
+    "reference_reply": "@AppleSupport Hey, we'd like to hear more about what's going on. Send us a DM and we'll go from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_023",
+    "customer_text": "@AppleSupport hi any advice on gps issues. My google maps is all over the place when I use sat nav and my strava won’t track my runs",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're happy to assist. Which iOS version are you currently running? Go to Settings &gt; General &gt; About for the version.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_024",
+    "customer_text": "@AppleSupport UPS lost 2 iPhone Xs today. I'm getting serious runaround. Anything you all can do to help?",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Lost or missing shipment requires logistics investigation.",
+    "reference_reply": "@AppleSupport That's never what we want to hear. We know how excited you are to get your new iPhone. Reach out to us in DM so we can help.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_025",
+    "customer_text": "Hey @AppleSupport and anyone else who upgraded to ios11.1, are y’all having issues with capital “I️” in the Mail app? As it puts in “A”?",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Hey, let's work together to figure out what's going on. Meet us in DM and we'll continue from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_026",
+    "customer_text": "Please fix the battery issues in Ios 11! @AppleSupport @AppleSupport",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We want to make sure you have a working battery. Have you had a chance to update to the latest 11.1?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_027",
+    "customer_text": "You dropped an update and I️ still see boxed question marks. Fix this shit @AppleSupport @AppleSupport.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport We're here to help. Which version of iOS is installed on your device? You'll see this in Settings &gt; General &gt; About.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_028",
+    "customer_text": "@AppleSupport Im using iPhone6s,it is installed with iOS 11.0.3 n battery drain problem is not resolved in it.When they resolve this issue in wht update?",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We've received your DM and will be responding there shortly. Thank you.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_029",
+    "customer_text": "@AppleSupport I got a crazy security bug issue with iOS 11.1",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_030",
+    "customer_text": "Anyone else having battery issues in IPhone? Degrading way to fast. @AppleSupport",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Having a reliable iPhone is important, and we want you to enjoy using it without worrying about battery life. Which iPhone do you have, and what's the iOS version it's currently running? DM us with details here:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_031",
+    "customer_text": "@AppleSupport hi all. @AppleSupport and settings apps keep crashing on iOS 11.1.2. See attached video. Is this a known issue?",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Thanks for bringing this to our attention. We'd like to look into this further. Please click here to join us in DM:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_032",
+    "customer_text": "@AppleSupport My MacPro is burning up while in sleep mode. Reliably returning to a computer thats been overheating for hours. Who pays when something burns out on a super expensive machine due to a glitch?! #Apple #MacPro",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Physical safety hazard requires human escalation.",
+    "reference_reply": "@AppleSupport This is not an expected nor does it sound normal. We can understand your view on this and would like to take a closer look. Can you let us know where this heat seems originate on the Mac? Send us a DM.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_033",
+    "customer_text": "@AppleSupport , I just wanted to let you know that this is the second time facing a problem (sudden shutdown) with my iPhone which lead me to restore, delete everything and fresh install due to your recent software updates. Pls fix this issue quickly!!",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're glad you reached out to let us know. It's never our intention for you to have issues after updating the iOS on your iPhone. Did restoring help? If not, send us a DM and let us know. We're always happy to help work through any concerns with your iPhone.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_034",
+    "customer_text": "@AppleSupport please do something about iOS 11's battery drain issue. I literally have my iPhone 6 plugged in and it's still losing power.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're here to help. Let's take this to DM so we can better assist you.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_035",
+    "customer_text": "@AppleSupport After updating to 10.13.1 to fix freeze issues of High Sierra, I went to a complete black screen. Test product before release",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We want to help. Are you still seeing a blank black screen on your Mac? Send us a DM.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_036",
+    "customer_text": "@AppleSupport Fix our iOS 11.03 battery issue. I’m on a 7 plus. @AppleSupport",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Send us a DM and let us know how long your battery is lasting. We'll help.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_037",
+    "customer_text": "@AppleSupport It's 10.3.3. Although I'm convinced it's a screen issue rather than a software one.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Send us a DM and let us know your country. We'll take a closer look together.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_038",
+    "customer_text": "@AppleSupport @AppleSupport I thought the issue with icons not displaying correctly was a bug fix for watchOS 4.1? #AppleWatch",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd be happy to look into this display issue with you. To start, can you tell us which Apple Watch you're using?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_039",
+    "customer_text": "@AppleSupport Hi there! I got an issue with iMessage and Facetime... using the latest iOS on an iphone 6.",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd love to help. Please do tell us what the issue is.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_040",
+    "customer_text": "@AppleSupport I am running on iOS 11.1, crackling sound ws reported 6 months back but now it is relatively less after update but Call Volumes have dropped",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": true,
+    "escalation_reason": "Physical hardware damage requires repair service.",
+    "reference_reply": "@AppleSupport Thanks for that information. DM the country or region where you are currently located to continue.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_041",
+    "customer_text": "@AppleSupport @AppleSupport @AppleSupport is there an official fix for the 11.0.3 battery issue? 😰😭😓",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport If you're having issues with your iPhone battery life, we'd like to help. Update to iOS 11.1 &amp; let us know if that persists after.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_042",
+    "customer_text": "@AppleSupport Não melhorou. PIOROU! Sai de casa com 100% de bateria e cheguei no trampo com 92%... SEM USAR! @AppleSupport please, fiX the battery issue!",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Since our Twitter support is available in English, get help at or join",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_043",
+    "customer_text": "@AppleSupport can you guys fix the software issue with the camera? I need this for my job. No issues when using it through Twitter app",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd be happy to look into your camera issue with you. Please let us know a bit more about what's going on.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_044",
+    "customer_text": "@AppleSupport Hey Apple! Having issues with my ID and already changed my password. Trying to update my computer but says ID is disabled?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We can help! Check out this article for guidance with your Apple ID:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_045",
+    "customer_text": "@AppleSupport help I logged out of my Apple ID account and the verification code is sent to a broken phone????",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Complex Apple ID / 2FA recovery requires identity verification.",
+    "reference_reply": "@AppleSupport We can assist you. You can change a trusted device if you are using two-factor authentication:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_046",
+    "customer_text": "@AppleSupport @AppleSupport my phone’s battery is draining faster after upgrading to ios 11.1. (I have iphone 6s). Please fix this issue asap.😩",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Let's help. Follow up with us in DM. Tell us the current region you reside in there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_047",
+    "customer_text": "@AppleSupport Having some battery issues. Any way to check it?",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Hey there! This is certainly not the experience we want you to have. You're in great hands for support. Let's look into this together. Please DM us which Apple device you're using. We look forward to speaking with you soon.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_048",
+    "customer_text": "@AppleSupport why has IOS 11 ruined my phone. 12 months no issue. Since I’ve installed that crap my phone freezes and keep having restore",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Hey Steven, we'd like to help get to the bottom of these issues. Which iOS version are you currently running on your iPhone?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_049",
+    "customer_text": "@AppleSupport Bluetooth connectivity issues after updating iOS",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We want to help. Are you updated to iOS 11.1? What are you experiencing with Bluetooth?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_050",
+    "customer_text": "@AppleSupport There’s an update available for 11.1 but friends that already updated are experiencing the same issue.",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Understood. Please DM us and we will continue from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_051",
+    "customer_text": "@AppleSupport Huge down performance on my 6 month old iphone7 with the news ios11, got plenty of issues.",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'll be happy to look into this with you. DM us and we'll get started.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_052",
+    "customer_text": "@AppleSupport on my second I watch in a space of 4 days, apps won’t work, is there an issue with the update?! Really not impressed...",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're delighted to help. What's going on with your apps? Are they unable to open? Let us know a little more about the situation.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_053",
+    "customer_text": "@AppleSupport yes. i have finished the recovery process but i can't access either of the devices i was logged into beforehand to get the verification code",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Complex Apple ID / 2FA recovery requires identity verification.",
+    "reference_reply": "@AppleSupport Please reach out to us via DM and we can go from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_054",
+    "customer_text": "@AppleSupport no shipping confirmation on my X. Hoping it’s not an issue I should be conflcerned with",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Were you able to take a look at your order through the link we previously sent?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_055",
+    "customer_text": "@AppleSupport iOS 11.1.2 on X. Notification issue happens on both Wi-Fi and cellular.",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Perfect, thanks. As you're up to date we'd like some additional details to assist. DM us using the link below and we'll continue.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_056",
+    "customer_text": "@AppleSupport Very frustrating Apple watch software update, anyone else having this issue?",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport The update can depend on your Wi-Fi network speed. How long has the update been in progress?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_057",
+    "customer_text": "@AppleSupport The 7plus and whichever the last iOS 10. I️ haven’t updated to the iOS 11 yet but I’ve heard that doesn’t resolve my issue",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport OK, got it. Let's move over to DM so we can look into this a bit further.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_058",
+    "customer_text": "@AppleSupport In duration of 1 month, i have update ios 3 times and all the time some or the other issue occurs. Better apple should upgrade its quality. I had phone heating issue which also apple store denied to accept on replacement",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd like to look into this further with you. Send us a DM and we'll go from there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_059",
+    "customer_text": "@AppleSupport since the update my iPhone 6s Plus is having issues with the camera .. already sent a dm!",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We’ve received your DM and will continue working with you there.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_060",
+    "customer_text": "@AppleSupport Now updated let me use it for few days then will come back to you. But how will you solve the issue of slow charging by using software update. It was there from the time of iOS 10 to now 11.2",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Sounds great, please let us know if the issue continues.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_061",
+    "customer_text": "It’s unbelievable that @AppleSupport, @AppleSupport still haven’t sorted out the battery issues on iOS 11. I almost don’t want to use my phone because of how quickly it drains out. Unacceptable.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're always happy to help. What iOS device are you currently using? Let us know in Direct Message and we'll take a look.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_062",
+    "customer_text": "Unable to create user accounts of any level after the OSX fix that has been released to patch the root issue..... (Domain Joined machine) @AppleSupport @AppleSupport #itonlygetsworse",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We are here to help. Let's start the device into safe mode. Does the issue remain then? DM us the answer. Here are the steps for safe mode:",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_063",
+    "customer_text": "@AppleSupport these battery issues are unacceptable! What’s going on ??",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd like to help if you're experiencing issues with your battery. Which device is this happening with? Let us know in DM.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_064",
+    "customer_text": "@AppleSupport #podcast issue on #ios11",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We'd be happy to look into this with you. Can you tell us what the message says in the screenshot and which version of iOS 11 you're using?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_065",
+    "customer_text": "@AppleSupport I’m still having major battery issues since downloading 11.0.3 despite 3 trips to an Apple store and a complete reset done by the store. When is this software issue going to be resolved?",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport Let us help you sort this out. To begin, please update your device to iOS 11.1.2. However, make sure your device is backed up first. Once backed up, go ahead and get your iPhone updated: DM us if the issue persists.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_066",
+    "customer_text": "@AppleSupport I've lost my I phone 6 on Wednesday night in Kolkata, India please help me to find the phone or track the phone.",
+    "ground_truth_intent": "order_shipping_inquiry",
+    "should_escalate": true,
+    "escalation_reason": "Lost or missing shipment requires logistics investigation.",
+    "reference_reply": "@AppleSupport This is never a fun experience. Did you have iCloud with Find My iPhone enabled on the device? If so, you can go to to track the device.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_067",
+    "customer_text": "@AppleSupport Thanks Apple the issue is sorted after updating to iOS 11.1.2",
+    "ground_truth_intent": "software_update",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We're glad to hear that! Feel free to reach out to us again in the future.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_068",
+    "customer_text": "@AppleSupport iOS 11 has some issues the phone hits and runs up battery very fast when ever music is on for some time yet it was not with iOS 10",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport To clarify, are you noticing an increase in battery usage when listening to music? Which app are you using for music? Also, what's the exact iOS version currently installed? Let us know the details and we'll work towards a resolution.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_069",
+    "customer_text": "Hey @AppleSupport @AppleSupport can you let me know why my iPhone 6 (normally fit&amp;well, no previous issues) suddenly has battery issues, mic doesn't work, so can't make calls...I won't be upgrading if that's what you want 😂 but I've paid for the phone now so... solve this pls?😃🙌🏽",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Customer explicitly requested human specialist.",
+    "reference_reply": "@AppleSupport We can certainly work with you to sort this out. First, let's take a look into the battery life. So that we can gather some details, can you tell us the exact iOS version currently installed? Also, what sort of battery issues are you experiencing?",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_070",
+    "customer_text": "Can you sort an update to put back the option to turn off auto-brightness, @AppleSupport @AppleSupport. Burning my battery and my retina.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": true,
+    "escalation_reason": "Physical safety hazard requires human escalation.",
+    "reference_reply": "@AppleSupport That setting hasn't been removed. If you're using iOS 11, you can turn it off in Settings &gt; General &gt; Accessibility &gt; Display Accommodations.",
+    "human_quality_score": 5
+  },
+  {
+    "id": "GOLD_071",
+    "customer_text": "@AppleSupport hi my iphone is totaly empty and it wont charge what can i do?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to help. Could you elaborate on what you mean by empty? Has the phone been erased?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_072",
+    "customer_text": "Anyone know how to stop my Apple TV from showing shows and movies from HBO on my dashboard if I've cancelled my subscription? @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Reach out to us via the following link for support with your Apple TV, then we can get you taken care of:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_073",
+    "customer_text": ".@AppleSupport - How can I have been plugged in with the charger provided w/#iPhoneX and be stuck at 82% for an hour+? I plugged in at 82%.",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Hi there. We'd like to look into this. Are you plugged into a wall outlet or computer? Let us know in DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_074",
+    "customer_text": "@AppleSupport why the battery percentages will go down when I charges my iPhone ?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That's not what we like to see. Let's get the battery moving in an upward direction. Can we test another cord and adapter?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_075",
+    "customer_text": "@AppleSupport iPhone 7plus. Right after I completed my payment for my Apple Music....my music app WONT open. The screen would turn blank and just go back to the homepage.",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Have you restarted the Music app, and your iPhone since this began? This link helps with how to quit the app: If so, which version of iOS are you running in Settings &gt; General &gt; About &gt; Version?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_076",
+    "customer_text": "@AppleSupport after upgrading to iOS 11.03 my iPad Air 2 won't charge anymore!! I tried everything but nothing worked! Please fix!!",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want you to be able to charge your iPad. Are you seeing an error message when the iPad is connected to power?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_077",
+    "customer_text": "@AppleSupport my itunes gift card money mysteriously disappeared from my itunes account?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We know how important this is. For more help, please reach out to our iTunes team here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_078",
+    "customer_text": "@AppleSupport since updating to ios11.02I cant connect to itunes or the app store please help",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'll be happy to assist. What device are you seeing this on? Have you tried multiple internet connections?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_079",
+    "customer_text": "My mom updated her iPad to iOS 11.1.1 yesterday and now the Videos app is gone. The tv app won’t show the content she had (and should still have). It’s just empty.. And the App Store app won’t load. Help, please? 🙏🏼@AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this with you there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_080",
+    "customer_text": "Pq eu n to conseguindo reinstalar apps da App Store???? @AppleSupport #AppStore",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Since our Twitter support is available in English, get help at or join",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_081",
+    "customer_text": "@AppleSupport my phones taking forever to charge, dying super quick and freezing. What should I do (7plus)",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Making sure your iPhone's battery is working properly is important to us. Reach out to us via DM and we can help.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_082",
+    "customer_text": "@AppleSupport hello, am I able to hand in another iPhone and pay money on top for a new model?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to look into that with you. DM us with which country you're located in.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_083",
+    "customer_text": "why does #applepay KEEP reverting to an old Billing Address, that I have deleted DOZENS of times? I DON’T LIVE THERE ANYMORE @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to get you to the team that best supports our ApplePay app. You can reach them here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_084",
+    "customer_text": "@AppleSupport You guys are not charging me a week later for Snapchat Geo filter that I paid for last week I’m not get charged twice what are you doing",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out. We've received your DM and we'll work with you there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_085",
+    "customer_text": "So, the new OS11 update has bogged my iPhone 7 down so much, that I have to charge it OFTEN! @AppleSupport @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to look into this with you. Send us a DM with more information, and we'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_086",
+    "customer_text": "@AppleSupport I have verified payment information 4 times &amp; still can't get a free app on Apple TV. Why?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport This article may help: You can reach out with questions here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_087",
+    "customer_text": "@AppleSupport my phone died and now it won't turn on again and It's not the charger and none of the button things are working...sos",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We've received your DM; we'll continue with you from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_088",
+    "customer_text": "After installing 11.0.2, my iPhone battery is acting like quick sand. Revolutionary features at what cost? Funny! @AppleSupport @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Battery life is important, and we're here for you. Send us a DM with more information, and we'll get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_089",
+    "customer_text": "@AppleSupport why did y’all take my money for crunchyroll app when I already paid it a few days ago? @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here for you! Reach out our iTunes Team for help here: DM us any other questions:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_090",
+    "customer_text": "Can’t purchase anything on my phone with my gift card stuck in a infinite loop of verifying billing address help @AppleSupport @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can help you with using your gift card. Reach out to our iTunes &amp; App Store team with this link:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_091",
+    "customer_text": "@AppleSupport battery on my iPhone 7 sucks after 11.0.3 upgrade. Have to charge multiple times in a day. Help!!!",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'll be glad to look into this with you. Please send us a DM with when you updated to iOS 11.0.3.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_092",
+    "customer_text": "@AppleSupport hey folks, any idea what's wrong with my App Store?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Hey there! We definitely want to make sure you can connect to your App Store. Let us know if the steps in this article help:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_093",
+    "customer_text": "@AppleSupport hi my phone wont charge at all can u help me",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. We know how important it is to charge your device. DM us the iPhone model you're using and we'll dive in.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_094",
+    "customer_text": "@AppleSupport I got charged for an album I already paid for a long time ago and I’d like a refund please",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out to us. We’ve received your DM and will continue with you there. Our reply will arrive momentarily.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_095",
+    "customer_text": "What’s with the horrible battery life of iphone after upgrading to #ios11 @AppleSupport 🙄 need to charge my phone every 2 hours",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can help with your battery life. Meet us in DM to collect a few details about usage, please.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_096",
+    "customer_text": "@AppleSupport Same as the stuff that was in before and I’m not prepared to pay another 25 quid in insurance money to fix it.",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Please send us a DM. We will be happy to discuss your options there:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_097",
+    "customer_text": "Whys my IPhone asking for a payment method when I try and update my apps ?? @AppleSupport",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That's a great question. We're happy to explain. The payment method associated with your Apple ID may be required to update. This article will take you through the steps of changing it or setting it to \"None\":",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_098",
+    "customer_text": "@AppleSupport my phone doesn’t charge anymore &amp; yes I use the charger that you guys gave me and I’ve tried it on others phone.",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. To start, we recommend following the steps outlined in this article here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_099",
+    "customer_text": "@AppleSupport Hi, i have problem to download application from the app store. Can you help?",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We’d be happy to lend a hand. What happens when you try to download an app? Please let us know which device and iOS you’re using.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_100",
+    "customer_text": "@AppleSupport WHY AM I GETTING CHARGED $15 TWICE?! For NOTHING",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to help. Could you tell us more about the charges in question? What are they related to? Let us know via DM to continue.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_101",
+    "customer_text": "@AppleSupport i have a 6s and ios 11, my phone keeps frezzing, restarting then saying i have to plug in my charger. Happens everyday, once my contract is done, not gonna get another iphone, actually such shit, unreliable phones",
+    "ground_truth_intent": "billing_subscription",
+    "should_escalate": false,
+    "escalation_reason": "Routine billing_subscription query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're glad you reached out. DM us which iOS 11 version you're currently running and we'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_102",
+    "customer_text": "@AppleSupport My whole phone freezes completely. I can not access anything. I have to turn it off and then turn it on again for the phone for work.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's meet up in DM and we'll look into this further.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_103",
+    "customer_text": "@AppleSupport I am on 11.0.2 on iPhone 7. Few top bugs being messy notifications with few overlapping each other, unable to remove them, bad battery life.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to look into these with you. Could you please send us a DM so we can gather some info?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_104",
+    "customer_text": "@AppleSupport I am unable to get to the log in screen entirely, since apparently there isn't an OS Installed anymore??",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. Can you please tell us which OS you had previously installed on your computer?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_105",
+    "customer_text": "@AppleSupport No was fine and then all these updates and my phone starts to play up ! Slower battery life it’s as if you want me to up grade ? ! 🤔🤔",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to look into this more in detail. Please reach out to us via DM and we'll get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_106",
+    "customer_text": "@AppleSupport Yes I’ve restarted and home key/power reset. Still no VM transcription",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks! Can you confirm if you have Siri enabled and set to U.S. English or Canadian English? DM us with details here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_107",
+    "customer_text": "@AppleSupport i updated my phone and now my speaker phone option doesn't work :/ help",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want to help. DM us, and let us know what happens exactly when you try to use the speakerphone. We'll look into this.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_108",
+    "customer_text": "@AppleSupport My 6S screen is non responsive. Did upgrade to 11.1 few days back and was running smooth, till now. suddenly phone hung",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We are here to help. DM us your current country and we can take a look.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_109",
+    "customer_text": "@AppleSupport Idk if it’s the iPhone 7 Plus or iOS 11. But my phone keeps on Freezing, glitching, zoomed in screen.🤷🏾‍♀️",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_110",
+    "customer_text": "@AppleSupport I have to restart it just because the phone is non responsive, it happens for all apps, even playing music it stops and freezes everything",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Got it. Let's dig into this a little deeper. DM us and we'll continue working with you there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_111",
+    "customer_text": "@AppleSupport I restarted the device, now it works",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Fantastic! We're glad you're able to download that album to enjoy now. Feel free to reach back out in the future.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_112",
+    "customer_text": "@AppleSupport 9/10 Thats the count touch id fails to recognise my 2 times registar thumb on my month old iPhone you should replace this",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's look in to this together and get it figured out. What type of iPhone do you have and which version of the iOS is on it?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_113",
+    "customer_text": "@AppleSupport My battery seems to be draining really fast? It’s an older iPhone. How long should a battery last lifetime-wise in an iPhone?",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That can vary but we'd be happy to address this with your device. What iPhone do you have? Let us know in a DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_114",
+    "customer_text": "@AppleSupport I have the new iPhone 8+ and sometimes when accessing the camera from the lock screen, I get a black screen with the spinner.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out. Have you tried restarting your device following these steps?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_115",
+    "customer_text": "@AppleSupport And it freezes randomly on any app. Either iOS 11.0.3 is garbage or this phone is becoming garbage.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for all the details, they really help us get started. Let us know via DM if these steps help:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_116",
+    "customer_text": "@AppleSupport yo i just bought this iPhone 5 months ago and iOS 11.0.3 drains my phone faster than 11.0.2 or below did what’s up with that",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here for you. Let's continue chatting via DM so we can take a look at what's happening.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_117",
+    "customer_text": "@AppleSupport bloody hell battery is getting drained like never before after 11.3 do u have a fix?!! It’s frustrating",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thank you for contacting us today. We'd be glad to assist you with your battery. Please send us a DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_118",
+    "customer_text": "@AppleSupport For FaceTime, it has happened bunch of times that i had restart my phone in order to receive visuals",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Did this occur after installing a specific update? Is a new device? Tell us in a DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_119",
+    "customer_text": "Most Iphone users are experiencing excessive battery drainage with their latest iOS (11.0.2) update, attention @AppleSupport @AppleSupport",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out! We also received your DM. Look for a reply there shortly.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_120",
+    "customer_text": "My 7+ battery never used to drain this fast and im not even updated to the latest iOS so I'm gonna need you to fucking stop @AppleSupport",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to look into this battery drain with you. Let us know the version of iOS you're running via DM to get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_121",
+    "customer_text": "@AppleSupport I somehow lost my os in my MacBook Air please reply me. I was trying to download the new os. And it showed install failed and my screen won’t change from missing file screen.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We've received your DM and will continue our conversation there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_122",
+    "customer_text": "@AppleSupport Why I’m unable to connect my #AirPods with my iPod (Have Bluetooth) ?",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We know how exciting the AirPods are! We'll help with that connection. Are you getting any errors or what are you seeing?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_123",
+    "customer_text": "@AppleSupport Thanks for your prompt reply! It has iOS 11.1.1 When I play music, the speakers work. Seems to be only when I'm using the phone, even when I put it on speaker, it doesn't come out through the speaker",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's give these steps a try next and let us know the outcome:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_124",
+    "customer_text": "@AppleSupport Hi, I game WiFi available. What is the next step??",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport It's great to hear back from you. Please send us a DM, we're anxious to get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_125",
+    "customer_text": "@AppleSupport @AppleSupport 11.0.3 and the battery life is AWFUL",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's help. Please DM us and we can go from there together.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_126",
+    "customer_text": "@AppleSupport And it does not freeze",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for confirming that. Are you using Apple Music? Send us more details about what’s happening in DM to continue there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_127",
+    "customer_text": "@AppleSupport why after downloading iOS 11 has my screen become very insensitive ?",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Can you clarify what you mean? Is there a delay when tapping the screen? What device and version of iOS 11 is this occurring with?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_128",
+    "customer_text": "My phone still won’t connect to WiFi anywhere. @AppleSupport fed up of tech support I need a new phone not troubleshooting every time 🙃",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to take a closer look at your issues. Please DM us more about what's happening and your current iOS version.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_129",
+    "customer_text": "@AppleSupport why does my iPhone screen keep making noises as if it’s loose? What should I do?",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That would be something we'd need to get checked right away. What's the iPhone model? Send a DM and we'll take a look.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_130",
+    "customer_text": "@AppleSupport Any way for you guys to check my battery health? The battery seems to drain very quickly.",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to look into any battery concerns you may have. What's going on?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_131",
+    "customer_text": "So my battery is acting crazy @AppleSupport 😒 it keeps dying fast",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want to help. How long has this been happening? Which iOS version are you running?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_132",
+    "customer_text": "@AppleSupport Since iOS 11 I’m experiencing a very fast battery drain. Could you help me! I brought my ...",
+    "ground_truth_intent": "device_troubleshooting",
+    "should_escalate": false,
+    "escalation_reason": "Routine device_troubleshooting query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thank you for reaching out. We’re happy to help. DM us which iPhone you’re using and we’ll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_133",
+    "customer_text": "@AppleSupport Yes. It happened after the reset before the most recent one. It goes black and then the apple symbol appears and then the loading circle",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for those details. Let's dig deeper into this together. DM us what country you are located in and we'll continue from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_134",
+    "customer_text": "@AppleSupport since updating to the latest ios. I can’t download new apps. It just keeps telling me to enter my password. V frustrating",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to take a look! To start, does this occur on all devices or just this one?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_135",
+    "customer_text": "@AppleSupport How can I reset my Keychain password to match my login password without loosing the contents of my current keychain?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We've got you covered! Let us know whether these steps help:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_136",
+    "customer_text": "Dear @AppleSupport: how do I fully reset an old iPhone that is mildly functional but so broken I can’t unlock it or actually reset it?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can explore options with you. Does the iPhone have physical damage, such as a cracked display?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_137",
+    "customer_text": "@AppleSupport ive had to hard reset my phone 3 times today and every app keeps crashing on me. What is wrong with iOS 11??",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport This is not what we want you to experience. Let's take a closer look. DM us the type of phone that you have.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_138",
+    "customer_text": "@AppleSupport I go into the music app, play a song, click on share song, click on twitter, add the account i want to talk to, then click tweet and the song isn’t there, only the text",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport What iOS version do you have on your iPhone currently? Let us know that and any other troubleshooting you may have already tried via DM. We can help figure out a resolution together.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_139",
+    "customer_text": "@AppleSupport i can't use my Mac. I tried to turn on in diferents modes. My account doesn't work and i don't have another one.",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want to help you get access to your Mac again. DM us some more details about what happened, and we’ll work there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_140",
+    "customer_text": "@AppleSupport why can’t I control music from the Control Centre when my phone is locked since ios11?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's look in to this together. Does this happen with the Music app or which app are you using for listening to music?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_141",
+    "customer_text": "@AppleSupport my phone keeps freezing every 5 minutes and I have to do a soft reset on it! Help!!!!!",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_142",
+    "customer_text": "@AppleSupport my phone keeps on freezing 😖 feels like it gets worse with every update!! I keep having to reset it...",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want you to be able to enjoy using your iPhone, and we can help. Just to confirm, is your iPhone currently running iOS version 11.1.2? Also, do you notice this behavior when using specific apps?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_143",
+    "customer_text": "@AppleSupport How do I️ remove my iCloud account? I’m kind of nervous to do that",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's continue within DM here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_144",
+    "customer_text": "My iPhone keeps resetting every 30 seconds omgg😫😫😫😡😡😡 @AppleSupport @AppleSupport",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We are here to help. Let's take a look at this for you. Let's try the steps listed in this article. DM us if the issue remains after.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_145",
+    "customer_text": "@AppleSupport tried to change my password since I wasn’t sure about an iTunes purchase and all hell broke loose. Now I’m in some account recovery process that takes a day?!? Any way to expedite this? I have all my info.",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can help with shortening the wait. Have you tried these steps here?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_146",
+    "customer_text": "@AppleSupport having problems with iOS 11 Cover Sheet on iPhone X... Randomly it’s completely blank, no notifications, lock, or login options. Reqs reboot. Want a video of it?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's look into this together. To start, can you tell us what iOS version you're currently on? Also, when did you first notice this behavior?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_147",
+    "customer_text": "@AppleSupport my new iPhone x keeps asking me to enter the password for an old Apple ID of my sisters. How do I stop this?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can help. How did you set up your iPhone? Which app is asking for this?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_148",
+    "customer_text": "@AppleSupport nightstand mode isn’t activating on my Apple Watch S2. watchOS 4.0. Have done multiple power cycles. Disabled/re-enabled. Help?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're happy to help you get this working as expected. What iOS version are you using on the iPhone?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_149",
+    "customer_text": "@AppleSupport and its one big cycle os signing in and nothing happening!! I reset my network settings too",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to look into this with you. Could you please send us a DM so we can gather some info?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_150",
+    "customer_text": "@AppleSupport I forgot my password and I’m waiting for my new ID for over one week!!! I called many times but nothing!!! I’m very upset",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out. This article will show you how to check the status of your Account Recovery request:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_151",
+    "customer_text": "@AppleSupport where to set the carrier account settings by default when ordering iPhone through the Apple store app?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can get you to the right spot. For help with purchasing, please reach out to our Online Store team:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_152",
+    "customer_text": "APPLE DELETED THE “DANGEROUS WOMAN “ ALBUM OFF MY ACCOUNT OUT OF NO WHERE HELLLL NO IM GONNA GET IT BACK @AppleSupport",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're happy to look into this with you. Send us a DM with which country you're in, and we’ll get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_153",
+    "customer_text": "@AppleSupport OK. Its not working at all.. Just tried on iOS and on a windows PC.. Still going back to the login prompt.. Can you comment please?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. To see the current system status of our Bug Reporter, you can click here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_154",
+    "customer_text": "@AppleSupport can we generate 'APP-SPECIFIC PASSWORD' on iPhone/iPad?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That's a great question. You can use app-specific passwords on any Apple device using iOS 9 or OS X El Capitan or later. The Apple ID will need to be set up with two-factor authentication though, learn more here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_155",
+    "customer_text": "@AppleSupport i've been locked out of my account for two months now?! you have been supposed to text or call me TWICE and have heard nothing? how can it possibly be so hard to get into my own account ?!?! your website only sends me round in circles it's completely illogical",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're happy to work with you and get this figured out. Did you set up account recovery? Please send us a DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_156",
+    "customer_text": "@AppleSupport if I bought a GSM iphone X from american apple store to be delivered to saudi arabia. Would it be unlocked or locked?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out. It looks like iPhone X is available by purchasing it locked to the four major American carriers.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_157",
+    "customer_text": "@AppleSupport It won’t switch on by the side button so I have to reset the whole thing by holding the home and Power button until the Apple logo appears",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Alright, let's take a closer look at this in DM. Please meet us there using this link:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_158",
+    "customer_text": "@AppleSupport I cannot schedule a Genius Bar Appointment because my Apple ID has been blocked. Even resetting the password has not changed the situation. I am unable to use my serial number to get into the chat forum because the screen is broken.",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can help! Which Apple Store are you trying to book the appointment for? Reply in DM to get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_159",
+    "customer_text": "@AppleSupport I want to know why my Apple ID has been locked for the past 5 months after 3 resets and multiple password changes",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport The best way for us to assist with your Apple ID, is for us to get in touch with you via this link:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_160",
+    "customer_text": "@AppleSupport Today i got asked for my apple id password, i filled in the right one, then i had to change it WHY?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to hear more about this. Did you receive a prompt on your Home Screen to enter your credentials, or were you asked somewhere else for your credentials?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_161",
+    "customer_text": "@AppleSupport I put my id account and my password but doesn't work it's tell me the id removed, i can't use the id to open the icloud. Can you help me by the serial number to open icloud?",
+    "ground_truth_intent": "account_apple_id",
+    "should_escalate": false,
+    "escalation_reason": "Routine account_apple_id query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Please meet with us in DM and we'll provide additional info about this. You can do that by using the link below:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_162",
+    "customer_text": "You should repair my mac book MacBook Pro (17-inch, Early 2011) @AppleSupport",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. Let's take this to DM so we can better assist you.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_163",
+    "customer_text": "Went to Genius Bar with a working phone, left with a brick that doesnt even turn on after they touched it. No explanation @AppleSupport :(",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want to be sure you can use your iPhone as you'd expect. Send us a DM and we'll look into this further with you.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_164",
+    "customer_text": "@AppleSupport It doesn’t matter; my #iphone7s seems to have corrected the problem on its own. Thanks anyways AppleCare!",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We’re glad to see things are back to normal for you. Let us know if anything new comes up. We’re here for you.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_165",
+    "customer_text": "@AppleSupport Is there any way to give feedback on a recent appointment at the Genius Bar? I had a great experience! I have case # from you.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport You're in the right place! Meet us in DM with as much detail as possible, and we'll be sure to pass along your feedback.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_166",
+    "customer_text": "Smashed my phone an absolute peach @AppleSupport any free repairs 👍🏼",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let us know which country you are currently in via DM, then we can take a look at options for this from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_167",
+    "customer_text": "Dear @AppleSupport, my phone is bricked and your system won't let me book a repair appointment without a confirmation code that has been texted to my phone -- see the problem?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to help. Follow up with us in DM. Tell us what's going on with your iPhone there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_168",
+    "customer_text": "@AppleSupport today at the genius bar my technician hit on me and called me hun. this was horrifying and terrifying. do better lol",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out to us. We'd like to hear about your experience. Please DM additional details, we'll meet you there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_169",
+    "customer_text": "@AppleSupport You guys are killing me!! I need help with my computer and can't make a damn Genius Bar appointment! And no One to One anymore. I need someone in person to help and you guy insist on not taking customers in store #RipSteveJobs #sad",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. DM us which computer you're working with and we'll get started.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_170",
+    "customer_text": "@AppleSupport no response nor picking my calls even after one week.Why it takes this much time on my warranty period eveb",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Hello there! Thank you for reaching out for support. We received your DM and will continue from there. We look forward to speaking with you soon.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_171",
+    "customer_text": "@AppleSupport how do I get my earpods changed (one ear has stopped working) i have the one year warranty?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to help. We've received your DM. Look for a reply there shortly.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_172",
+    "customer_text": "@AppleSupport @AppleSupport read sumwhere can i get the iphoneX or any iphone i would get warranty in india is this true?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to explore options. To get started, send us a DM by clicking on the link below. We'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_173",
+    "customer_text": "@AppleSupport if my iPad has warranty can I take it to my local store for repair?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to look into this with you further. DM us the details of the issue you're experiencing and we'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_174",
+    "customer_text": "@AppleSupport Progressively getting worse, hence why I need you to run a diag tool so I can determine if I need to replace battery?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Understood. Let's take a look at this further in DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_175",
+    "customer_text": "@AppleSupport I updates to 11.1.1 and the speed improved. But i can get multiple apps to drag and drop at the same time. How come?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport If we're understanding correctly, you are able to move two apps at one time. Is that right? Please DM us.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_176",
+    "customer_text": "@AppleSupport I wanted to know if an iPhone 8 plus bought in USA will have a valid warranty in India?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That's a great question, and the answer is yes. You can get the full Apple warranty details here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_177",
+    "customer_text": "@AppleSupport The watch isn't broken, the band is. My other bands work fine, and it's a brand new Series 3 watch.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport To move forward, we'll need to continue working with you via Direct Message. You can contact us via this link:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_178",
+    "customer_text": "@AppleSupport The only thing I changed was updating to 11.1.2. Then everything started to drop.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport OK, understood. Are there any updates pending in the App Store? Let us know in DM:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_179",
+    "customer_text": "Standby time on iPad after 11.1 update is horrible. 40% drop in 5 hrs. @AppleSupport @AppleSupport what’s going on??",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's look into that. Send us a DM and we'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_180",
+    "customer_text": "wtf my phone keeps dropping a percent every 30 seconds. fix this shit. @AppleSupport",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can look into the battery life together. First, can you tell us the exact iOS version in DM? We'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_181",
+    "customer_text": "@AppleSupport I have bought a Apple care plan and after paying I came to know the warranty has been expired phone was bought on 7 oct 2016.can someone hlp",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's take a look at this together. We'd like to continue in DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_182",
+    "customer_text": "@AppleSupport In English : Buy a MacBook Pro. 4 months after = keyboard broken. Have the same prob only one week after AppleStore intervention. GG :)",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for clarifying. Is your keyboard completely unresponsive? Or are only certain keys working? Let us know via a DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_183",
+    "customer_text": "@AppleSupport If I buy a new iPhone in the United States (in official Apple Store) would the warranty be valid in Europe?",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Hi there. Your warranty would be valid in Europe. You would have the option of carrying your device in for service. Read more about it here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_184",
+    "customer_text": ".@AppleSupport If I do a drop test on the iPhone X, will my Apple Care cover it? Thanks.",
+    "ground_truth_intent": "hardware_repair_warranty",
+    "should_escalate": false,
+    "escalation_reason": "Routine hardware_repair_warranty query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We encourage you treat your iPhone with care. Information on what AppleCare covers can be found here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_185",
+    "customer_text": "@AppleSupport so when are we going to get an update, I’m tired of this box with the question mark in it.",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Here’s what you can do to work around the issue until it’s fixed in a future software update:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_186",
+    "customer_text": "@AppleSupport @AppleSupport how can I stop I️ from happening when I️ type “i”?! I️ just did the update 🤬",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want to help. What device are you using, and is this happening in certain applications? DM us back to continue.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_187",
+    "customer_text": "@AppleSupport Since the update 11.0.3 on my iPhone 6, I can not turn off the WLAN via the menu! Only in the settings! 🤬",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're happy to help. This can provide more information:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_188",
+    "customer_text": "IOS 11.0.2 belum menyelesaikan masalah kayaknya, baterai masih cepat lowbat @AppleSupport @AppleSupport",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We offer support via Twitter in English. Contact us for help in your preferred language here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_189",
+    "customer_text": "IOS 11.0.3 is latest in Apple updates that have been as annoying and buggy as Microsoft which I quit to go Apple. Now what? @AppleSupport",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want you to enjoy your iPhone. Tell us about the issues you’re noticing, and we’ll do all we can to assist you.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_190",
+    "customer_text": "@AppleSupport ios11 iphone6 not adjust very very heavy moving you should adjust iphone6 for ios11 right now",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's take a look at this together. Is it slow while using a certain app, or is it the entire iPhone? Let us know in DM.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_191",
+    "customer_text": "@AppleSupport \"Unable to activate faceID on this iPhone\" after updating to iOS 11.2 to fix the December 2nd Crashing bug. Do y'all have a quality control department anymore?",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We want to help. Check out this article on what to do when encountering an issue with Face ID on your iPhone X and let us know if the issue persists:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_192",
+    "customer_text": "@AppleSupport can you please sort #Siri!! Trying to listen music and Siri keeps popping up when I didn’t even hold down the home button?? #help #iOS11",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Let's team up to take a closer look at what's happening and find the best solution. Send us a DM with the details, including what type of iOS device you're using and your specific iOS 11 version.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_193",
+    "customer_text": "When will iOS 11.2 be released? @AppleSupport",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport That's a good question. While we don't have information about future updates, you can keep up with the latest about Apple from here:",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_194",
+    "customer_text": "@AppleSupport sister tried to update her phone and now it won’t even turn on not happy 😠",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We can definitely help out. Does the iPhone show anything on the display currently?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_195",
+    "customer_text": "@AppleSupport @AppleSupport Weather Widget not working ios11 Please see the link",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to take a further look at this with you. Please meet us in DM and we'll work towards a resolution together.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_196",
+    "customer_text": "@AppleSupport اتفق معك ... . . @AppleSupport . The device is still disconnected after the last update, this compline is from most of people",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We're here to help. DM us details about what's going on with your device.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_197",
+    "customer_text": "@AppleSupport since I’ve updated my phone my photos keep being blurred - with a little ! In the corner. Help!",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd like to help. Which version of iOS 11 are you using? Can you please message us in DM?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_198",
+    "customer_text": "@AppleSupport Hey, iOS 11.1.2 lost my status bar and it’s very slow...Twit from S~l~o~w~M~o~ iPhone 6s with iOS 11.1.2",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport Thanks for reaching out and we'd like to see how we can assist with what's going on here. Is your status bar still missing? Also, what actions are responding slowly?",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_199",
+    "customer_text": "@AppleSupport Hey guys. my 6s iphone crashed for the second time even when updating the last IOS firmware 11.1.1 what should I do. I had enough",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport We'd be happy to assist you. Is it stuck on the Apple screen? Is it completely unresponsive and will not power on at all? DM us more details and we'll go from there.",
+    "human_quality_score": 4
+  },
+  {
+    "id": "GOLD_200",
+    "customer_text": "@AppleSupport Have to assume this is a bug in the latest iOS update. The letter “I” keeps replacing to A [?]. Is there a fix coming?",
+    "ground_truth_intent": "software_update",
+    "should_escalate": false,
+    "escalation_reason": "Routine software_update query suitable for self-service guidance.",
+    "reference_reply": "@AppleSupport DM us using the link below. We'll look into this with you from there.",
+    "human_quality_score": 4
+  }
+]
